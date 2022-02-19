@@ -23,20 +23,20 @@ void function RulesInit(){
      */
 
     // string rule99 = "this is your rule"
-    string rule1 = "[1] Takyon is poggers"
-    string rule2 = "[2] Someone didnt fill out their rules"
-    string rule3 = "[3] chicken nugget"
+    string rule1 = "[1] Just be cool"
+    string rule2 = "[2] Don't be racist"
+    string rule3 = "[3] Why you gotta use cringe sentry? All you do is end up with no boosts at all."
 
     // add rules to the rule builder
     // dont forget the "\n" to add a new line, also dont put a + after the last rule
     rules = rule1 + "\n" +
-            rule2 + "\n" + 
+            rule2 + "\n" +
             rule3 + "\n"
 
     /*
      *  end of rules
      */
-     
+
     // ConVars
     rulesEnabled = GetConVarBool( "pv_rules_enabled" )
     adminSendRulesEnabled = GetConVarBool( "pv_rules_admin_send_enabled" )
