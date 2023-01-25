@@ -48,7 +48,8 @@ bool function CommandSkip(entity player, array<string> args){
 
         // check if skipping is enabled
         if(!skipEnabled){
-            SendHudMessageBuilder(player, COMMAND_DISABLED, 255, 200, 200)
+            // SendHudMessageBuilder(player, COMMAND_DISABLED, 255, 200, 200)
+            Chat_ServerPrivateMessage(player, "\x1b[38;2;220;0;0m" + COMMAND_DISABLED,false)
             return false
         }
 
